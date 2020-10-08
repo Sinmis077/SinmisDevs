@@ -1,0 +1,25 @@
+body {
+	background-color:black;
+	background-image: url("../images/fallback/background.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#Deco {
+	background-color: rgba(0,0,0,0.5);
+	height:225px;
+	width:70%;
+	position:absolute;
+	top:20%;
+}
+#Deco h1, p, div#moving {
+	padding-left:7.5%;
+}
+#Deco h1 {
+	font-weight:600;
+	font-size:225%;
+}
+#Deco p {
+	font-size:115%;
+}

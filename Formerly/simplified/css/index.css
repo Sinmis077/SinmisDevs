@@ -1,0 +1,75 @@
+* {
+	font-family:Arial;
+	color:white;
+}
+@font-face {
+	font-family:Dream;
+	src:url(Dream.ttf);
+}
+body {
+	max-height:10000px;
+	max-width:3000px;
+	min-height:600px;
+	min-width:300px;
+	width:auto;
+	height:auto;
+	background-color:#3aa8e0;
+	position:relative;
+	margin:0;
+	padding:0;
+}
+header {
+	max-height:3000px;
+	max-width:3000px;
+	min-width:300px;
+	min-height:75px;
+	height:10%;
+	width:100%;
+	text-align:center;
+	position:relative;
+	background-image: linear-gradient(to top right, #1087c3 , #0c97de , #16a5ed);
+}
+main {
+	max-height:5000px;
+	max-width:3000px;
+	min-width:300px;
+	min-height:475px;
+	height:85%;
+	width:100%;
+	position:relative;
+}
+footer {
+	max-height:2000px;
+	max-width:3000px;
+	min-width:100px;
+	min-height:50px;
+	height:5%;
+	width:100%;
+	position:relative;
+	background-color:#00b6b1;
+}
+#foot {
+	position:absolute; 
+	margin:0; 
+	padding:0;
+}
+/* headclass */
+.headclass h3 {
+	display:inline;
+	position:absolute;
+	left:1%;
+	padding:5px 7px;
+}
+.headclass a {
+	text-decoration:none;
+	padding:7px 9px;
+	position:absolute;
+	right:1%;
+	top:27%;
+}
+.headclass a.modpacks {
+	right:9%;
+}
+.headclass a.home {
+	right:17%;
+}
